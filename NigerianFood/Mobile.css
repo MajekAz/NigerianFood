@@ -1,0 +1,214 @@
+@media (max-width: 1160px) {
+    .col {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 1.5rem;
+        
+    }
+   
+.dish {
+    width: 200px;
+    height: 200px;
+    margin: .06rem;
+}
+    .col-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        
+    }
+
+    
+    .col-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        
+    }
+    .container {
+        width: 90%;
+    
+    }
+
+    
+   .col-text {
+  
+    font-size: 2rem;
+    color: #fff;
+    
+    
+}
+.bg-2 {
+    text-align: center;
+    padding-top: 1rem;
+    line-height: 2rem;
+    background: #333;
+    
+ 
+}
+
+.col-text {
+    text-align: left;
+    font-size: 2rem;
+    color: #fff;
+    margin: -2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    
+}
+
+h3, h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    
+    line-height: 2.6rem;
+    padding: 1rem;
+ 
+
+}
+h4 {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+ }
+ 
+ h5 {
+     font-size: 1rem;
+    
+  }
+  }
+
+ 
+  @media (max-width: 560px) {
+
+    h1 {
+         font-size: 2rem;
+         color: #fff;
+         
+       
+   }
+   
+   .Hero {
+          font-size: 1.2rem;
+           color: #fff;
+          
+    }
+
+    #Section-Showcase {
+        background: url(Image/giselle-herrera-YsWRRHGEjsc-unsplash.jpg) no-repeat center center/cover;
+        height: 100vh;
+        width: 100%;
+    
+         }
+
+         /* Navigtaion */
+
+         nav {
+            display: list-item; 
+            justify-content: space-around;
+           
+        }
+
+        .col, .col-1 {
+            display: grid;
+            grid-template-columns: 1fr;
+            
+            
+        }
+            
+        .card {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding-left: 2rem;
+            
+        }
+          
+        img {
+            width: 100%;
+            
+            }
+              
+        .dish {
+             width: 100%;
+            
+            
+        }
+
+        .col-text {
+            text-align: left;
+            font-size: 2rem;
+            color: #fff;
+            margin: -2rem;
+            padding-top: 2rem;
+            padding-left: 2rem;
+            
+        }
+
+        .who {
+            width: 100vw
+            
+        }
+
+        
+.bg-2 {
+    text-align: center;
+    padding-top: 3.5rem;
+    line-height: 3rem;
+    background: #333;
+    
+ 
+}
+
+h3, h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    
+    line-height: 2.6rem;
+    padding: 2rem;
+ 
+
+}
+
+
+#contact-form {
+    background: #333;
+    padding: 1rem;
+}
+
+
+  #contact-form input, 
+  #contact-form textarea {
+    width: 75%;
+    padding: 10px;
+    border: 1px #ddd solid;
+    color: #fff;
+  }
+  
+  #contact-form textarea {
+    height: 50px;
+  }
+  
+  #contact-form input:focus, 
+  #contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+
+  }
+  .text-form {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: justify;
+    padding-top: .5rem;
+
+}
+
+.container {
+    width: 85vw;
+   
+}
+
+    }

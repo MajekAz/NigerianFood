@@ -1,0 +1,310 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    background: cadetblue;
+
+    
+}
+
+/* Navigation */
+#Navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: green;  
+   
+}
+
+nav {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;  
+      
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;   
+}
+
+ul li {
+    padding: 0 1.2rem;
+    color: #fff;
+    font-size: 1.2rem;
+    
+    
+}
+
+ul li:hover {
+    background: white;
+    color: green;
+   
+  
+  
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    
+}
+
+
+a:hover {
+    color: green;
+   
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+  }
+
+
+
+button {
+    padding: 0.8rem;
+    background: green;
+    color: white;
+    font-size: 1.2rem;
+    border: solid 3px #0f6d6d;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+
+   
+}
+
+button:hover {
+    background: white;
+    color: green;
+    border: solid 3px green;
+    border-radius: 5px;
+    cursor: pointer;
+  
+    
+}
+
+
+   img {
+     width: 100%;
+     border-radius: 75%;
+
+}
+
+h1 {
+    font-size: 8rem;
+    color: #fff;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    padding: 1.5rem 0rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    padding-bottom: 2rem;
+    line-height: 3.5rem;
+ 
+
+}
+
+h4 {
+   font-size: 1.2rem;
+   text-align: center;
+   
+}
+
+h5 {
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+   
+ }
+
+
+p {
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+span {
+    color: wheat;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Utility Classes */
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0rem 1.5trem;
+  line-height: 7rem;
+  /* overlay */
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+
+.card-item {
+    box-shadow: 0 0px 4px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    width: 85%;
+    padding: 1rem;
+   
+  }
+
+  .card-item:hover {
+    box-shadow: 0 8px 4px 0 rgba(0,0,0,0.3);
+  }
+
+
+.col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.col-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+
+}
+
+.Hero{
+    font-size: 3rem;
+    color: #fff
+}
+
+.follo {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.fab {
+    color: white;
+   padding: 0.5rem;
+}
+
+.fab:hover {
+    color: #333;
+}
+
+
+.bg-2 {
+    text-align: center;
+    padding-top: 3.5rem;
+    line-height: 1.5rem;
+    background: #333;
+    height: 100%;
+    
+ 
+}
+
+
+
+/* Section-Showcase */
+
+#Section-Showcase {
+    background: url(Image/giselle-herrera-YsWRRHGEjsc-unsplash.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    
+    
+
+    }
+
+/* Section-A */
+
+#Section-A {
+    padding: 1rem;
+    
+}
+
+
+/* Section-Contact */
+
+#contact-form {
+    background: #333;
+    padding: 1rem;
+}
+
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contact-form input, 
+  #contact-form textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px #ddd solid;
+   
+  }
+  
+  #contact-form textarea {
+    height: 200px;
+  }
+  
+  #contact-form input:focus, 
+  #contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+
+  }
+
+  #Footer {
+      background: green;
+      color: white;
+      text-align: center;
+      
+     
+  }
+
+ div h4 {
+     font-size: 1.2rem;
+    
+ }
